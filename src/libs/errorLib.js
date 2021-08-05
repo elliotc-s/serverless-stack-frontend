@@ -8,5 +8,7 @@ export function onError(error)
         message = error.message;
     }
 
+    console.log(`${JSON.stringify(error)}`);
+
     alert(message);
 }

@@ -1,5 +1,6 @@
 const config = {
-    s3: {
+  STRIPE_KEY: "pk_test_51JHSFuIaT82ZN34m2GEfOGKQIxzAFIF9TaFWbhWMk2LvhqyL8f0UVwPoaxOlQltf3IZRE9pOzzT8iYtnYcz1ZCVK00SlrW7Oqh",
+  s3: {
       REGION: "us-east-1",
       BUCKET: "ecs-notes-app-upload",
     },
